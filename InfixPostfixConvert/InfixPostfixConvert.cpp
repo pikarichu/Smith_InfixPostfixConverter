@@ -18,7 +18,6 @@ int main()
 		{
 			conv.stackInfix(line);
 			string output = conv.getPosfixExpression();
-			//
 			cout << output << endl;
 		}
 	}
